@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('inicio-sesion');
+  this.route('calculadora');
 });
 
 export default Router;
